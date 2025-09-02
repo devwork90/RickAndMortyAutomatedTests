@@ -1,0 +1,24 @@
+<testsuites id="" name="" tests="10" failures="0" skipped="0" errors="0" time="22.57095199999993">
+<testsuite name="frontEndTests\rickandmorty.test.ts" timestamp="2025-09-02T06:35:02.729Z" hostname="chromium" tests="10" failures="0" skipped="0" time="67.711" errors="0">
+<testcase name="Rick and Morty Navigation Tests with Page Objects › navigate to Docs page" classname="frontEndTests\rickandmorty.test.ts" time="9.717">
+</testcase>
+<testcase name="Rick and Morty Navigation Tests with Page Objects › Verify page title" classname="frontEndTests\rickandmorty.test.ts" time="8.148">
+</testcase>
+<testcase name="Rick and Morty Navigation Tests with Page Objects › should navigate to Docs page" classname="frontEndTests\rickandmorty.test.ts" time="9.584">
+</testcase>
+<testcase name="Rick and Morty Navigation Tests with Page Objects › should navigate to About page" classname="frontEndTests\rickandmorty.test.ts" time="9.595">
+</testcase>
+<testcase name="Rick and Morty Navigation Tests with Page Objects › should navigate to Support Us page" classname="frontEndTests\rickandmorty.test.ts" time="6.666">
+</testcase>
+<testcase name="Rick and Morty Navigation Tests with Page Objects › should display endpoint counts for characters, locations, episodes" classname="frontEndTests\rickandmorty.test.ts" time="4.476">
+</testcase>
+<testcase name="Rick and Morty Navigation Tests with Page Objects › server status link should be visible and clickable" classname="frontEndTests\rickandmorty.test.ts" time="7.65">
+</testcase>
+<testcase name="Rick and Morty Navigation Tests with Page Objects › footer should display attribution text" classname="frontEndTests\rickandmorty.test.ts" time="3.634">
+</testcase>
+<testcase name="Rick and Morty Navigation Tests with Page Objects › homepage should render correctly on mobile viewport" classname="frontEndTests\rickandmorty.test.ts" time="4.153">
+</testcase>
+<testcase name="Rick and Morty Navigation Tests with Page Objects › tab navigation" classname="frontEndTests\rickandmorty.test.ts" time="4.088">
+</testcase>
+</testsuite>
+</testsuites>
