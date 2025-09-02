@@ -30,10 +30,10 @@ jobs:
         run: npx playwright install --with-deps
 
       - name: Run BackEnd Tests
-        run: npx playwright test tests/BackEndTests --reporter=html
+        run: npx playwright test "BackendTests" --reporter=html
 
       - name: Run FrontEnd Tests
-        run: npx playwright test tests/frontEndTests --reporter=html
+        run: npx playwright test tests/"frontEndTests" --reporter=html
 
       - name: Upload Playwright Report
         if: always()
