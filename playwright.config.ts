@@ -12,7 +12,7 @@ import { defineConfig, devices } from "@playwright/test";
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
-  testDir: ".",
+  testDir: "./tests",
   testMatch: ["BackendTests/**/*.spec.ts", "FrontEndTests/**/*.test.ts"],
   /* Run tests in files in parallel */
   fullyParallel: true,
@@ -57,7 +57,18 @@ export default defineConfig({
       name: "firefox",
       use: { ...devices["Desktop Firefox"] },
     },
-
+    // API project (for backend)
+    {
+      name: "api",
+      testMatch: ["BackendTests/**/*.spec.ts"],
+      use: {
+        baseURL: "https://rickandmortyapi.com/api",
+        extraHTTPHeaders: {
+          // Add auth headers if needed
+          "Content-Type": "application/json",
+        },
+      },
+    },
     // {
     //   name: "webkit",
     //   use: { ...devices["Desktop Safari"] },

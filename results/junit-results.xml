@@ -1,24 +1,138 @@
-<testsuites id="" name="" tests="10" failures="0" skipped="0" errors="0" time="22.57095199999993">
-<testsuite name="frontEndTests\rickandmorty.test.ts" timestamp="2025-09-02T06:35:02.729Z" hostname="chromium" tests="10" failures="0" skipped="0" time="67.711" errors="0">
-<testcase name="Rick and Morty Navigation Tests with Page Objects › navigate to Docs page" classname="frontEndTests\rickandmorty.test.ts" time="9.717">
+<testsuites id="" name="" tests="32" failures="0" skipped="32" errors="0" time="0.17306899999999997">
+<testsuite name="tests\BackEndTests\rickandmorty.spec.ts" timestamp="2025-09-02T07:44:30.836Z" hostname="chromium" tests="6" failures="0" skipped="6" time="0" errors="0">
+<testcase name="Rick and Morty API Tests &amp; Schema Validation › GET /GET All Characters" classname="tests\BackEndTests\rickandmorty.spec.ts" time="0">
+<skipped>
+</skipped>
 </testcase>
-<testcase name="Rick and Morty Navigation Tests with Page Objects › Verify page title" classname="frontEndTests\rickandmorty.test.ts" time="8.148">
+<testcase name="Rick and Morty API Tests &amp; Schema Validation › GET / Get character by Id" classname="tests\BackEndTests\rickandmorty.spec.ts" time="0">
+<skipped>
+</skipped>
 </testcase>
-<testcase name="Rick and Morty Navigation Tests with Page Objects › should navigate to Docs page" classname="frontEndTests\rickandmorty.test.ts" time="9.584">
+<testcase name="Rick and Morty API Tests &amp; Schema Validation › GET / Get character by gender" classname="tests\BackEndTests\rickandmorty.spec.ts" time="0">
+<skipped>
+</skipped>
 </testcase>
-<testcase name="Rick and Morty Navigation Tests with Page Objects › should navigate to About page" classname="frontEndTests\rickandmorty.test.ts" time="9.595">
+<testcase name="Rick and Morty API Tests &amp; Schema Validation › GET / Validate Location Schema" classname="tests\BackEndTests\rickandmorty.spec.ts" time="0">
+<skipped>
+</skipped>
 </testcase>
-<testcase name="Rick and Morty Navigation Tests with Page Objects › should navigate to Support Us page" classname="frontEndTests\rickandmorty.test.ts" time="6.666">
+<testcase name="Rick and Morty API Tests &amp; Schema Validation › GET / Validate Single Location Schema" classname="tests\BackEndTests\rickandmorty.spec.ts" time="0">
+<skipped>
+</skipped>
 </testcase>
-<testcase name="Rick and Morty Navigation Tests with Page Objects › should display endpoint counts for characters, locations, episodes" classname="frontEndTests\rickandmorty.test.ts" time="4.476">
+<testcase name="Rick and Morty API Tests &amp; Schema Validation › GET / Validate episodes Schema" classname="tests\BackEndTests\rickandmorty.spec.ts" time="0">
+<skipped>
+</skipped>
 </testcase>
-<testcase name="Rick and Morty Navigation Tests with Page Objects › server status link should be visible and clickable" classname="frontEndTests\rickandmorty.test.ts" time="7.65">
+</testsuite>
+<testsuite name="tests\frontEndTests\rickandmorty.test.ts" timestamp="2025-09-02T07:44:30.836Z" hostname="chromium" tests="10" failures="0" skipped="10" time="0" errors="0">
+<testcase name="Rick and Morty Navigation Tests with Page Objects › navigate to Docs page" classname="tests\frontEndTests\rickandmorty.test.ts" time="0">
+<skipped>
+</skipped>
 </testcase>
-<testcase name="Rick and Morty Navigation Tests with Page Objects › footer should display attribution text" classname="frontEndTests\rickandmorty.test.ts" time="3.634">
+<testcase name="Rick and Morty Navigation Tests with Page Objects › Verify page title" classname="tests\frontEndTests\rickandmorty.test.ts" time="0">
+<skipped>
+</skipped>
 </testcase>
-<testcase name="Rick and Morty Navigation Tests with Page Objects › homepage should render correctly on mobile viewport" classname="frontEndTests\rickandmorty.test.ts" time="4.153">
+<testcase name="Rick and Morty Navigation Tests with Page Objects › should navigate to Docs page" classname="tests\frontEndTests\rickandmorty.test.ts" time="0">
+<skipped>
+</skipped>
 </testcase>
-<testcase name="Rick and Morty Navigation Tests with Page Objects › tab navigation" classname="frontEndTests\rickandmorty.test.ts" time="4.088">
+<testcase name="Rick and Morty Navigation Tests with Page Objects › should navigate to About page" classname="tests\frontEndTests\rickandmorty.test.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Rick and Morty Navigation Tests with Page Objects › should navigate to Support Us page" classname="tests\frontEndTests\rickandmorty.test.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Rick and Morty Navigation Tests with Page Objects › should display endpoint counts for characters, locations, episodes" classname="tests\frontEndTests\rickandmorty.test.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Rick and Morty Navigation Tests with Page Objects › server status link should be visible and clickable" classname="tests\frontEndTests\rickandmorty.test.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Rick and Morty Navigation Tests with Page Objects › footer should display attribution text" classname="tests\frontEndTests\rickandmorty.test.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Rick and Morty Navigation Tests with Page Objects › homepage should render correctly on mobile viewport" classname="tests\frontEndTests\rickandmorty.test.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Rick and Morty Navigation Tests with Page Objects › tab navigation" classname="tests\frontEndTests\rickandmorty.test.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="tests\BackEndTests\rickandmorty.spec.ts" timestamp="2025-09-02T07:44:30.836Z" hostname="firefox" tests="6" failures="0" skipped="6" time="0" errors="0">
+<testcase name="Rick and Morty API Tests &amp; Schema Validation › GET /GET All Characters" classname="tests\BackEndTests\rickandmorty.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Rick and Morty API Tests &amp; Schema Validation › GET / Get character by Id" classname="tests\BackEndTests\rickandmorty.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Rick and Morty API Tests &amp; Schema Validation › GET / Get character by gender" classname="tests\BackEndTests\rickandmorty.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Rick and Morty API Tests &amp; Schema Validation › GET / Validate Location Schema" classname="tests\BackEndTests\rickandmorty.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Rick and Morty API Tests &amp; Schema Validation › GET / Validate Single Location Schema" classname="tests\BackEndTests\rickandmorty.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Rick and Morty API Tests &amp; Schema Validation › GET / Validate episodes Schema" classname="tests\BackEndTests\rickandmorty.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="tests\frontEndTests\rickandmorty.test.ts" timestamp="2025-09-02T07:44:30.836Z" hostname="firefox" tests="10" failures="0" skipped="10" time="0" errors="0">
+<testcase name="Rick and Morty Navigation Tests with Page Objects › navigate to Docs page" classname="tests\frontEndTests\rickandmorty.test.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Rick and Morty Navigation Tests with Page Objects › Verify page title" classname="tests\frontEndTests\rickandmorty.test.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Rick and Morty Navigation Tests with Page Objects › should navigate to Docs page" classname="tests\frontEndTests\rickandmorty.test.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Rick and Morty Navigation Tests with Page Objects › should navigate to About page" classname="tests\frontEndTests\rickandmorty.test.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Rick and Morty Navigation Tests with Page Objects › should navigate to Support Us page" classname="tests\frontEndTests\rickandmorty.test.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Rick and Morty Navigation Tests with Page Objects › should display endpoint counts for characters, locations, episodes" classname="tests\frontEndTests\rickandmorty.test.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Rick and Morty Navigation Tests with Page Objects › server status link should be visible and clickable" classname="tests\frontEndTests\rickandmorty.test.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Rick and Morty Navigation Tests with Page Objects › footer should display attribution text" classname="tests\frontEndTests\rickandmorty.test.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Rick and Morty Navigation Tests with Page Objects › homepage should render correctly on mobile viewport" classname="tests\frontEndTests\rickandmorty.test.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Rick and Morty Navigation Tests with Page Objects › tab navigation" classname="tests\frontEndTests\rickandmorty.test.ts" time="0">
+<skipped>
+</skipped>
 </testcase>
 </testsuite>
 </testsuites>

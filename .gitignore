@@ -5,5 +5,5 @@ node_modules/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
-/results.json/
-/results.xml/
+results.json
+results.xml

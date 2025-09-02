@@ -1,7 +1,7 @@
 {
   "config": {
     "configFile": "C:\\Users\\SiphoC\\Documents\\software_Projects\\RickAndMortyAutomatedTests\\playwright.config.ts",
-    "rootDir": "C:/Users/SiphoC/Documents/software_Projects/RickAndMortyAutomatedTests/tests",
+    "rootDir": "C:/Users/SiphoC/Documents/software_Projects/RickAndMortyAutomatedTests",
     "forbidOnly": false,
     "fullyParallel": true,
     "globalSetup": null,
@@ -10,9 +10,7 @@
     "grep": {},
     "grepInvert": null,
     "maxFailures": 0,
-    "metadata": {
-      "actualWorkers": 4
-    },
+    "metadata": {},
     "preserveOutput": "always",
     "reporter": [
       [
@@ -49,15 +47,14 @@
         "outputDir": "C:/Users/SiphoC/Documents/software_Projects/RickAndMortyAutomatedTests/test-results",
         "repeatEach": 1,
         "retries": 0,
-        "metadata": {
-          "actualWorkers": 4
-        },
+        "metadata": {},
         "id": "chromium",
         "name": "chromium",
-        "testDir": "C:/Users/SiphoC/Documents/software_Projects/RickAndMortyAutomatedTests/tests",
+        "testDir": "C:/Users/SiphoC/Documents/software_Projects/RickAndMortyAutomatedTests",
         "testIgnore": [],
         "testMatch": [
-          "**/*.test.ts"
+          "BackendTests/**/*.spec.ts",
+          "FrontEndTests/**/*.test.ts"
         ],
         "timeout": 30000
       },
@@ -65,37 +62,227 @@
         "outputDir": "C:/Users/SiphoC/Documents/software_Projects/RickAndMortyAutomatedTests/test-results",
         "repeatEach": 1,
         "retries": 0,
-        "metadata": {
-          "actualWorkers": 4
-        },
+        "metadata": {},
         "id": "firefox",
         "name": "firefox",
-        "testDir": "C:/Users/SiphoC/Documents/software_Projects/RickAndMortyAutomatedTests/tests",
+        "testDir": "C:/Users/SiphoC/Documents/software_Projects/RickAndMortyAutomatedTests",
         "testIgnore": [],
         "testMatch": [
-          "**/*.test.ts"
+          "BackendTests/**/*.spec.ts",
+          "FrontEndTests/**/*.test.ts"
         ],
         "timeout": 30000
       }
     ],
     "shard": null,
     "updateSnapshots": "missing",
-    "updateSourceMethod": "3way",
+    "updateSourceMethod": "patch",
     "version": "1.55.0",
     "workers": 4,
     "webServer": null
   },
   "suites": [
     {
-      "title": "frontEndTests\\rickandmorty.test.ts",
-      "file": "frontEndTests/rickandmorty.test.ts",
+      "title": "tests\\BackEndTests\\rickandmorty.spec.ts",
+      "file": "tests/BackEndTests/rickandmorty.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Rick and Morty API Tests & Schema Validation",
+          "file": "tests/BackEndTests/rickandmorty.spec.ts",
+          "line": 10,
+          "column": 6,
+          "specs": [
+            {
+              "title": "GET /GET All Characters",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                },
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "6a5849e404bbbe6c1941-d5ee3336c408558d850d",
+              "file": "tests/BackEndTests/rickandmorty.spec.ts",
+              "line": 11,
+              "column": 7
+            },
+            {
+              "title": "GET / Get character by Id",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                },
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "6a5849e404bbbe6c1941-e2893a4d7ef6e3984d86",
+              "file": "tests/BackEndTests/rickandmorty.spec.ts",
+              "line": 32,
+              "column": 7
+            },
+            {
+              "title": "GET / Get character by gender",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                },
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "6a5849e404bbbe6c1941-9fb4598b0ba73bd5f16a",
+              "file": "tests/BackEndTests/rickandmorty.spec.ts",
+              "line": 48,
+              "column": 7
+            },
+            {
+              "title": "GET / Validate Location Schema",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                },
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "6a5849e404bbbe6c1941-09b06af59c8b4f5399c4",
+              "file": "tests/BackEndTests/rickandmorty.spec.ts",
+              "line": 73,
+              "column": 7
+            },
+            {
+              "title": "GET / Validate Single Location Schema",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                },
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "6a5849e404bbbe6c1941-3d3200bcf9195adc8a46",
+              "file": "tests/BackEndTests/rickandmorty.spec.ts",
+              "line": 89,
+              "column": 7
+            },
+            {
+              "title": "GET / Validate episodes Schema",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                },
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "6a5849e404bbbe6c1941-4960f5a4bd30651b4fe8",
+              "file": "tests/BackEndTests/rickandmorty.spec.ts",
+              "line": 110,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "tests\\frontEndTests\\rickandmorty.test.ts",
+      "file": "tests/frontEndTests/rickandmorty.test.ts",
       "column": 0,
       "line": 0,
       "specs": [],
       "suites": [
         {
           "title": "Rick and Morty Navigation Tests with Page Objects",
-          "file": "frontEndTests/rickandmorty.test.ts",
+          "file": "tests/frontEndTests/rickandmorty.test.ts",
           "line": 7,
           "column": 6,
           "specs": [
@@ -110,26 +297,21 @@
                   "expectedStatus": "passed",
                   "projectId": "chromium",
                   "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 0,
-                      "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 9717,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-09-02T06:35:04.129Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
+                  "results": [],
+                  "status": "skipped"
+                },
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
                 }
               ],
-              "id": "8de13c7a95c4f51b6d80-209945e2a1c0bbbe8c84",
-              "file": "frontEndTests/rickandmorty.test.ts",
+              "id": "a2e66cccccb7e4b54594-52e88d8794346fec9fcd",
+              "file": "tests/frontEndTests/rickandmorty.test.ts",
               "line": 8,
               "column": 7
             },
@@ -144,26 +326,21 @@
                   "expectedStatus": "passed",
                   "projectId": "chromium",
                   "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 1,
-                      "parallelIndex": 1,
-                      "status": "passed",
-                      "duration": 8148,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-09-02T06:35:04.049Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
+                  "results": [],
+                  "status": "skipped"
+                },
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
                 }
               ],
-              "id": "8de13c7a95c4f51b6d80-409f52beb1987abd9ece",
-              "file": "frontEndTests/rickandmorty.test.ts",
+              "id": "a2e66cccccb7e4b54594-f991200621f31de3fb7c",
+              "file": "tests/frontEndTests/rickandmorty.test.ts",
               "line": 17,
               "column": 7
             },
@@ -178,26 +355,21 @@
                   "expectedStatus": "passed",
                   "projectId": "chromium",
                   "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 2,
-                      "parallelIndex": 2,
-                      "status": "passed",
-                      "duration": 9584,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-09-02T06:35:04.099Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
+                  "results": [],
+                  "status": "skipped"
+                },
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
                 }
               ],
-              "id": "8de13c7a95c4f51b6d80-eda69aad364e04818e0d",
-              "file": "frontEndTests/rickandmorty.test.ts",
+              "id": "a2e66cccccb7e4b54594-b422b951266292c194a6",
+              "file": "tests/frontEndTests/rickandmorty.test.ts",
               "line": 26,
               "column": 7
             },
@@ -212,26 +384,21 @@
                   "expectedStatus": "passed",
                   "projectId": "chromium",
                   "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 3,
-                      "parallelIndex": 3,
-                      "status": "passed",
-                      "duration": 9595,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-09-02T06:35:04.166Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
+                  "results": [],
+                  "status": "skipped"
+                },
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
                 }
               ],
-              "id": "8de13c7a95c4f51b6d80-c205b356d4a5ec5b1c4b",
-              "file": "frontEndTests/rickandmorty.test.ts",
+              "id": "a2e66cccccb7e4b54594-ded7e43afdeb12180025",
+              "file": "tests/frontEndTests/rickandmorty.test.ts",
               "line": 36,
               "column": 7
             },
@@ -246,26 +413,21 @@
                   "expectedStatus": "passed",
                   "projectId": "chromium",
                   "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 1,
-                      "parallelIndex": 1,
-                      "status": "passed",
-                      "duration": 6666,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-09-02T06:35:13.214Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
+                  "results": [],
+                  "status": "skipped"
+                },
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
                 }
               ],
-              "id": "8de13c7a95c4f51b6d80-a62248502d902e7d09b6",
-              "file": "frontEndTests/rickandmorty.test.ts",
+              "id": "a2e66cccccb7e4b54594-8e0acb58f8131055bafa",
+              "file": "tests/frontEndTests/rickandmorty.test.ts",
               "line": 45,
               "column": 7
             },
@@ -280,26 +442,21 @@
                   "expectedStatus": "passed",
                   "projectId": "chromium",
                   "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 0,
-                      "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 4476,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-09-02T06:35:14.650Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
+                  "results": [],
+                  "status": "skipped"
+                },
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
                 }
               ],
-              "id": "8de13c7a95c4f51b6d80-bba77fc680b299f35844",
-              "file": "frontEndTests/rickandmorty.test.ts",
+              "id": "a2e66cccccb7e4b54594-a2314dfe4fc21e4b27ea",
+              "file": "tests/frontEndTests/rickandmorty.test.ts",
               "line": 55,
               "column": 7
             },
@@ -314,26 +471,21 @@
                   "expectedStatus": "passed",
                   "projectId": "chromium",
                   "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 3,
-                      "parallelIndex": 3,
-                      "status": "passed",
-                      "duration": 7650,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-09-02T06:35:14.655Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
+                  "results": [],
+                  "status": "skipped"
+                },
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
                 }
               ],
-              "id": "8de13c7a95c4f51b6d80-00504da191f4f5d7c009",
-              "file": "frontEndTests/rickandmorty.test.ts",
+              "id": "a2e66cccccb7e4b54594-8641df442a6f090ad003",
+              "file": "tests/frontEndTests/rickandmorty.test.ts",
               "line": 69,
               "column": 7
             },
@@ -348,26 +500,21 @@
                   "expectedStatus": "passed",
                   "projectId": "chromium",
                   "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 2,
-                      "parallelIndex": 2,
-                      "status": "passed",
-                      "duration": 3634,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-09-02T06:35:15.523Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
+                  "results": [],
+                  "status": "skipped"
+                },
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
                 }
               ],
-              "id": "8de13c7a95c4f51b6d80-38b4774b9f3f60d0cf78",
-              "file": "frontEndTests/rickandmorty.test.ts",
+              "id": "a2e66cccccb7e4b54594-69fced64656a2f8f5f1e",
+              "file": "tests/frontEndTests/rickandmorty.test.ts",
               "line": 89,
               "column": 7
             },
@@ -382,26 +529,21 @@
                   "expectedStatus": "passed",
                   "projectId": "chromium",
                   "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 0,
-                      "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 4153,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-09-02T06:35:19.172Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
+                  "results": [],
+                  "status": "skipped"
+                },
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
                 }
               ],
-              "id": "8de13c7a95c4f51b6d80-1923c2f9c18f27f8c2bf",
-              "file": "frontEndTests/rickandmorty.test.ts",
+              "id": "a2e66cccccb7e4b54594-ab79a6938675696d756c",
+              "file": "tests/frontEndTests/rickandmorty.test.ts",
               "line": 97,
               "column": 7
             },
@@ -416,26 +558,21 @@
                   "expectedStatus": "passed",
                   "projectId": "chromium",
                   "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 2,
-                      "parallelIndex": 2,
-                      "status": "passed",
-                      "duration": 4088,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-09-02T06:35:19.202Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
+                  "results": [],
+                  "status": "skipped"
+                },
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
                 }
               ],
-              "id": "8de13c7a95c4f51b6d80-39317e775165b151e70a",
-              "file": "frontEndTests/rickandmorty.test.ts",
+              "id": "a2e66cccccb7e4b54594-c5846b9ae5567881afc6",
+              "file": "tests/frontEndTests/rickandmorty.test.ts",
               "line": 110,
               "column": 7
             }
@@ -446,10 +583,10 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-09-02T06:35:01.797Z",
-    "duration": 22570.951999999932,
-    "expected": 10,
-    "skipped": 0,
+    "startTime": "2025-09-02T07:44:30.664Z",
+    "duration": 173.06899999999996,
+    "expected": 0,
+    "skipped": 32,
     "unexpected": 0,
     "flaky": 0
   }
